@@ -1,24 +1,17 @@
-# weather
+# Vue weather app
 
-## Project setup
-```
-npm install
-```
+This is a simple weather app that I created using the Vuejs framework. The works by the user simply 
+typing the name of a city into the search bar and then clicking the search button. A card will then
+appear display certain meteorlogical details for the city that the user searches.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# How to run
 
-### Compiles and minifies for production
-```
-npm run build
-```
+To run this program, make sure you have npm installed on your machine. Then simply navigate into the projects
+directory and run the command 'npm run serve'. Wait for the server to start and then simply go to 'localhost:8080'
+in your web browser and use the app.
 
-### Lints and fixes files
-```
-npm run lint
-```
+# How the app gets its data
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This project was created to show my understanding of using third party api's. This project uses openweather api
+to fetch the data. The program will fetch the necessary data from the openweather servers by using the city name
+that the user inputs. It will then display the details of the current weather in that city.
